@@ -1,0 +1,41 @@
+.search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: white;
+    box-shadow: 1px 0px 2px black;
+}
+
+.search-input {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(59, 59, 61);
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 500px;
+    transition: box-shadow 0.25s;
+}
+
+.search:hover {
+    background-color: white;
+}
+
+.search:hover {
+    box-shadow: 1px 1px 5px black;
+}
+
+.roshan {
+    text-align: center;
+    font-size: 45px;
+    color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    transition: 0.3s all;
+}
+
+.roshan:hover {
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
